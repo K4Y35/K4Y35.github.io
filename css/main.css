@@ -1965,6 +1965,10 @@ header .top-bar {
   background: #ffffff;
   padding-top: 12rem;
   padding-bottom: 12rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 #portfolio .folio-item {
   padding: 0;
@@ -2357,6 +2361,9 @@ header .top-bar {
   background: #151515;
   padding-top: 12rem;
   padding-bottom: 7.2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 #contact .section-intro h1 {
   color: white;
@@ -2521,6 +2528,8 @@ header .top-bar {
   font-family: "poppins-regular", sans-serif;
   font-size: 1.5rem;
   text-align: center;
+  display: flex;
+  justify-content: center;
 }
 .contact-info .collapse {
   padding: 0;
